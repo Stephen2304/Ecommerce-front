@@ -40,10 +40,10 @@
 
         <div class="col-12 col-xl-6 col-lg-3 col-md-3 col-sm-12 text-left text-md-right pb-5">
           <div class="footer-widget">
-            <h4>399 Crowfield Road,</h4>
-            <h4>Phoenix, Arizona 85012</h4>
-            <a href="mailto:#">asff@fdsfsdc.com</a>
-            <h6>+602-926-5809</h6>
+            <h4>Cameroun, Douala</h4>
+            <h4>Yassa, Le Quebecois</h4>
+            <a href="mailto:#">jacquesstephan10@gmail.com</a>
+            <h6>+237 698803159</h6>
           </div>
         </div>
 
