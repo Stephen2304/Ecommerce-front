@@ -11,7 +11,7 @@
       </div>
       <!--Logo-->
       <a class="navbar-brand py-0 pl-5">
-          <img src="@/assets/fi-logo.svg" width="50" height="50">
+          <img src="@/assets/panier.jpg" width="50" height="50">
       </a>
       <!--Header navigation-->
       <span class="navbar-item bc d-none d-xl-block d-lg-block py-0">
@@ -20,7 +20,7 @@
         <router-link to="/contact">Contact us</router-link>
       </span>
 
-      <p class="navbar-item ml-auto">
+      <p class="navbar-item ml-auto"></p>
         <div class="searc d-none d-xl-block d-lg-block pr-3">
           <input type="search" class="search">
         </div>
@@ -28,10 +28,11 @@
           <h5 style="cursor: pointer" data-toggle="modal" data-target="#userModal">Sign In</h5>
         </div>
 
-        <div class="bag" @click="openCart">
+        <div class="bag" @click="openCart()">
             <img class="pb-1" src="@/assets/cart.svg">
             <span class="mb-3" v-if="this.bagItemscount > 0">{{ bagItemscount }}</span>
         </div>
+      <!-- </p> -->
     </nav>
     <!--User Modal-->
     <div class="modal fade" id="userModal" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
