@@ -29,7 +29,7 @@
         </div>
 
         <div class="bag" @click="openCart()">
-            <img class="pb-1" src="@/assets/cart.svg">
+            <img class="pb-1" src="@/assets/shopping-cart.png">
             <span class="mb-3" v-if="this.bagItemscount > 0">{{ bagItemscount }}</span>
         </div>
       <!-- </p> -->
@@ -162,7 +162,7 @@ form .btn-xl.btn-success.mt-3 {
 }
 
 .bag span {
-    background-color: #6394F8;
+    background-color: red;
     border-radius: 10px;
     color: white;
     position: absolute;
