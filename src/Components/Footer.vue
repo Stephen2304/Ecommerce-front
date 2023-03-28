@@ -40,8 +40,8 @@
 
         <div class="col-12 col-xl-6 col-lg-3 col-md-3 col-sm-12 text-left text-md-right pb-5">
           <div class="footer-widget">
+            <h4>Cameroun, Yaoundé</h4>
             <h4>Cameroun, Douala</h4>
-            <h4>Yassa, Le Quebecois</h4>
             <a href="mailto:#">jacquesstephan10@gmail.com</a>
             <h6>+237 698803159</h6>
           </div>
@@ -52,7 +52,7 @@
       <div class="row justify-content-between">
         <div class="col-xl-7 col-lg-6 col-md-6 col-sm-6 col-6">
           <div class="tiny-footer">
-            <p>Copyright © All Rights Reserved 2020 </p>
+            <p>Copyright © All Rights Reserved 2023 </p>
           </div>
         </div>
         <div class="col-4 col-xl-4 col-lg-4 col-md-4 col-sm-4 text-right">
@@ -79,8 +79,8 @@ export default {
 .footer_area {
   position: relative;
   z-index: 1;
-  color: #2c3539;
-  background-color: #fefefe;
+  color: #fefefe;
+  background-color: #2c3539;
 }
 
 .footer-widget {
@@ -97,7 +97,7 @@ export default {
 }
 
 .list-unstyled a li {
-  color: #2c3e50;
+  color: #0dbae6;
   margin-bottom: 10px;
 }
 

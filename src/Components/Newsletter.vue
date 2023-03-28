@@ -7,7 +7,7 @@
         <div class="col-12 col-lg-6">
           <div class="newsletter-text">
             <h2>Join our Newsletter</h2>
-            <p>Nulla ac convallis lorem, eget euismod nisl. bibendum nec.</p>
+            <p>Get lastest notifications and events.</p>
           </div>
         </div>
 
