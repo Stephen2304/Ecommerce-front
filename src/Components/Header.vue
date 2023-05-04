@@ -35,7 +35,7 @@
       <!-- </p> -->
     </nav>
     <!--User Modal-->
-    <div class="modal fade" id="userModal" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <!-- <div class="modal fade" id="userModal" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" bgcolor="#172b4d" colorTitle="white">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-body">
@@ -63,6 +63,40 @@
           <div class="modal-footer">
             <a class="dropdown-item" href="#">Forgot password?</a>
             <a class="dropdown-item text-right" href="#">Sign up</a>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <div class="modal fade" id="userModal" tabindex="-1" aria-hidden="true" role="dialog">
+      <div class="modal-dialog modal-md">
+        <div class="modal-content">
+          <div class="modal-header" :style="{ 'background-color': '#172b4d', 'color': 'white' }">
+            <h5 class="modal-title px-2">Inscription</h5>
+            <button class="close btn-close btn-close-white mx-2e" type="button" data-dismiss="modal" style="outline-style:none;" aria-label="Close">
+                x
+              </button>
+          </div>
+          <div class="modal-body">
+            <form class="px-3 py-2">
+                <div class="form-group">
+                  <label for="exampleDropdownFormEmail1">Email address</label>
+                  <input type="email" class="form-control" placeholder="email@example.com">
+                </div>
+                <div class="form-group">
+                  <label for="exampleDropdownFormPassword1">Password</label>
+                  <input type="password" class="form-control" placeholder="Password">
+                </div>
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input">
+                  <label class="form-check-label" for="dropdownCheck">
+                      Remember me
+                    </label>
+                </div>
+                <button type="submit" class="btn-xl btn-successe mt-3">Sign in</button>
+              </form>
+          </div>
+          <div class="modal-footer">
+            <slot name="footer" />
           </div>
         </div>
       </div>
@@ -104,10 +138,7 @@ nav {
 
 .close {
   position:relative;
-  bottom:20px;
-  left:10px;
-  font-size: 31px;
-  color: #000;
+  color: white;
 }
 .navbar-item.bc a {
   font-size: 17px;
@@ -149,7 +180,7 @@ nav {
   perspective: 1000;
 }
 
-form .btn-xl.btn-success.mt-3 {
+form .btn-xl.btn-successe.mt-3 {
   position: relative;
   -webkit-transition-duration: 100ms;
   transition-duration: 100ms;
@@ -158,6 +189,7 @@ form .btn-xl.btn-success.mt-3 {
   font-size: 20px;
   outline:none;
   cursor: pointer;
+  background: #2dcecc;
   box-shadow: 0 26px 38px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 

@@ -41,6 +41,6 @@ ol.carousel-indicators li {
 }
 
 ol.carousel-indicators li.active {
-  background: #dbf0fa;
+  background: #172b4d;
 }
 </style>

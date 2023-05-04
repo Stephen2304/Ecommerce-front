@@ -2,12 +2,12 @@
   <div>
     <div :class="cClass">
       <div class="cart-menu">
-        <h1 class="text-center">Cart</h1>
+        <h1 class="text-center">Panier</h1>
         <hr>
 
         <transition name="fade">
           <div v-if="this.cartContent.length === 0" class="text-center font-italic">
-            Your cart is empty, try to Add stuff.
+            Votre panier est vide, veuillez ajouter des produits.
           </div>
         </transition>
 
@@ -110,7 +110,7 @@ export default {
   right: 0;
   width: 360px;
   height: 100%;
-  background: #303e49;
+  background: #172b4d;
   overflow-y: auto;
   z-index:1051;
   -webkit-overflow-scrolling: touch;
