@@ -80,7 +80,7 @@ export default {
   position: relative;
   z-index: 1;
   color: #fefefe;
-  background-color: #2c3539;
+  background-color: #172b4d;
 }
 
 .footer-widget {
@@ -97,7 +97,7 @@ export default {
 }
 
 .list-unstyled a li {
-  color: #0dbae6;
+  color: white;
   margin-bottom: 10px;
 }
 

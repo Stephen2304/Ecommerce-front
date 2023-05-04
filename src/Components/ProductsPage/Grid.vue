@@ -172,7 +172,7 @@ export default {
 .card-selector {
   color: #DCDCDC;
   height: 40rem;
-  background: #2c3539 !important;
+  background: #172b4d !important;
   box-shadow: 0 8px 6px 0 rgba(0, 0, 0, 0.1), 0 26px 70px 0 rgba(0, 0, 0, 0.69);
 }
 
