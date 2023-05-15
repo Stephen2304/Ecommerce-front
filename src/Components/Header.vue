@@ -71,7 +71,7 @@
       <div class="modal-dialog modal-md">
         <div class="modal-content">
           <div class="modal-header" :style="{ 'background-color': '#172b4d', 'color': 'white' }">
-            <h5 class="modal-title px-2">Inscription</h5>
+            <h5 class="modal-title px-2">Registration</h5>
             <button class="close btn-close btn-close-white mx-2e" type="button" data-dismiss="modal" style="outline-style:none;" aria-label="Close">
                 x
               </button>

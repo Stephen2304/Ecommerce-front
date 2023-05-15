@@ -2,12 +2,12 @@
   <div>
     <div :class="cClass">
       <div class="cart-menu">
-        <h1 class="text-center">Panier</h1>
+        <h1 class="text-center">Cart</h1>
         <hr>
 
         <transition name="fade">
           <div v-if="this.cartContent.length === 0" class="text-center font-italic">
-            Votre panier est vide, veuillez ajouter des produits.
+            Your cart is empty, please add the products.
           </div>
         </transition>
 
