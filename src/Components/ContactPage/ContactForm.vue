@@ -3,26 +3,25 @@
     <div class="container-fluid py-5">
       <div class="row d-flex">
         <div class="col-12 col-xl-6 col-lg-6 col-md-6 col-sm-12 order-sm-0 order-12" style="margin-right:-120px;">
-          <img class="img-fluid" src="@/assets/con-1.jpg">
+          <img class="img-fluid" src="@/assets/contact-page.jpg">
         </div>
-        <div class="col-12 col-xl-6 col-lg-5 col-md-6 col-sm-12 order-first order-xl-0">
-          <h1>Hello there</h1>
-          <h2 style="color:grey">got a thought to discuss?</h2>
-          <form>
-            <div class="form-group">
-              <input type="text" class="form-control" required>
-              <label class="label" for="name">Name</label>
-            </div>
-            <div class="form-group">
-              <input type="email" class="form-control" required>
-              <label class="label" for="E-mail">E-mail</label>
-            </div>
-            <div class="form-group">
-              <textarea class="form-control" style="overflow:hidden; height:130px" rows="3" required></textarea>
-              <label class="label" for="Message">Message</label>
-            </div>
-              <button class="btn btn-light" href="#" role="button">submit</button>
-          </form>
+        <div class="col-12 col-xl-6 col-lg-5 col-md-6 col-sm-12 order-first order-xl-0 party">
+          <!-- HTML !-->
+          <h3>Remember to leave us a message</h3>
+          <button class="button-40" role="button">
+            <a href="mailto:jacquesstephan10@gmail.com">Via Mail</a>
+          </button>
+          <p/>
+          <h3>Follow me on</h3>
+          <img class="img-fluid ratio" src="@/assets/social/linkedin.png">
+          <img class="img-fluid ratio" src="@/assets/social/whatsapp.png">
+          <img class="img-fluid ratio" src="@/assets/social/github.png">
+          <img class="img-fluid ratio" src="@/assets/social/twitter.png">
+          <img class="img-fluid ratio" src="@/assets/social/facebook.png">
+          <!-- https://wa.me/+237698803159?text=Hello! -->
+          <!-- <a href="mailto:contact@arthurmonney.me" class="inline-block mt-4 sm:mt-0 text-sm leading-5 font-medium text-white py-2.5 px-4 bg-slate-900 hover:bg-black rounded-full"><span class="sr-only">Email Address</span>via Email</a> -->
+
+          <!-- https://wa.me/<numéro_de_téléphone>?text=<votre_message_avec_le_lien></votre_message_avec_le_lien> -->
         </div>
         </div>
       </div>
@@ -36,71 +35,57 @@ export default {
 </script>
 
 <style scoped>
-form {
-  width: 100%;
-  padding: 50px 0;
-  display: block;
-  margin: 0 auto;
+.ratio {
+  width: 5%;
+  margin-right: 1%;
 }
-
-.form-group {
-  width: 100%;
-  position: relative;
-  margin: 0 0 50px;
+.party{
+  left: 10%;
+  top: 10rem;
 }
-.form-group label {
-  font-weight: 100;
-  font-size: 1.5rem;
-  color: grey;
-  position: absolute;
-  transition: .5s ease-in-out;
-  top: 0px;
-  z-index: 0;
+/* CSS */
+.button-40 > a {
+  color: white;
+  text-decoration: none;
 }
-.form-group input, .form-group textarea  {
-  outline: none;
-  box-shadow: none;
-  background-color: transparent;
-  border: 0;
-  border-bottom: 1px solid #555;
-  font-size: 1.4rem;
-  font-weight: 100;
-  width: 100%;
-  height: 40px;
-  transition: all 0.5s;
-  z-index: 1;
-  position: relative;
-  border-radius: 0;
-  resize: none;
-  scroll-behavior: none;
-}
-
-.form-group input:valid ~ label,
-.form-group input:focus ~ label,
-.form-group textarea:valid ~ label,
-.form-group textarea:focus ~ label {
-  color: #71acd6;
-  font-size: 1rem;
-  top: -15px;
-  transition: all 0.5s;
-}
-
-.form-group input:valid,
-.form-group input:focus,
-.form-group textarea:valid,
-.form-group textarea:focus{
-  border-color: #71acd6;
-}
-
-form button {
-  -webkit-transition-duration: 200ms;
-  transition-duration: 200ms;
-  width: 120px;
-  height: 50px;
-  font-size: 15px;
-  padding: 0px 30px;
+.button-40 {
+  background-color: #0F172A;
+  border: 1px solid transparent;
+  border-radius: 25px;
+  box-sizing: border-box;
+  color: #FFFFFF;
   cursor: pointer;
-  box-shadow: 0 26px 38px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  flex: 0 0 auto;
+  font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  padding: .75rem 1.2rem;
+  text-align: center;
+  text-decoration: none #6B7280 solid;
+  text-decoration-thickness: auto;
+  transition-duration: .2s;
+  transition-property: background-color,border-color,color,fill,stroke;
+  transition-timing-function: cubic-bezier(.4, 0, 0.2, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
 }
 
+.button-40:hover {
+  background-color: #374151;
+}
+
+.button-40:focus {
+  box-shadow: none;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+@media (min-width: 768px) {
+  .button-40 {
+    padding: .75rem 1.5rem;
+  }
+}
 </style>
