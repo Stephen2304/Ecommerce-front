@@ -13,11 +13,21 @@
           </button>
           <p/>
           <h3>Follow me on</h3>
-          <img class="img-fluid ratio" src="@/assets/social/linkedin.png">
-          <img class="img-fluid ratio" src="@/assets/social/whatsapp.png">
-          <img class="img-fluid ratio" src="@/assets/social/github.png">
-          <img class="img-fluid ratio" src="@/assets/social/twitter.png">
-          <img class="img-fluid ratio" src="@/assets/social/facebook.png">
+          <a target="_blank" href="https://www.linkedin.com/in/stephen-jacques-a4a6161ba/">
+            <img class="img-fluid ratio" src="@/assets/social/linkedin.png">
+          </a>
+          <a target="_blank" href="https://wa.me/+237698803159?text=Hello!">
+            <img class="img-fluid ratio" src="@/assets/social/whatsapp.png">
+          </a>
+          <a target="_blank" href="https://github.com/Stephen2304">
+            <img class="img-fluid ratio" src="@/assets/social/github.png">
+          </a>
+          <a target="_blank" href="https://twitter.com/StephenJacque16">
+            <img class="img-fluid ratio" src="@/assets/social/twitter.png">
+          </a>
+          <a target="_blank" href="https://www.facebook.com/people/Stephen-Jacques/100081056631138/">
+            <img class="img-fluid ratio" src="@/assets/social/facebook.png">
+          </a>
           <!-- https://wa.me/+237698803159?text=Hello! -->
           <!-- <a href="mailto:contact@arthurmonney.me" class="inline-block mt-4 sm:mt-0 text-sm leading-5 font-medium text-white py-2.5 px-4 bg-slate-900 hover:bg-black rounded-full"><span class="sr-only">Email Address</span>via Email</a> -->
 
