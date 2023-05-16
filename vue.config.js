@@ -1,3 +1,8 @@
 module.exports = {
-    filenameHashing: false
+  filenameHashing: false,
+  pwa: {
+    workboxOptions: {
+      exclude: [/_redirects/]
+    }
   }
+}
